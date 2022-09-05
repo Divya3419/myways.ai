@@ -1,0 +1,67 @@
+.container {
+  border: 1px solid black;
+  color: white;
+  width: 95%;
+  margin: auto;
+  background-image: url(./night.jpg);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.container p {
+  background-color: black;
+  text-align: left;
+  padding: 10px;
+  font-size: 23px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+  margin-top: -5%;
+}
+.top h1 {
+  font-size: 80px;
+}
+.top img {
+  width: 60%;
+  margin-top: 40%;
+}
+
+.mid {
+  border: 1px solid white;
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  font-size: 23px;
+  border-radius: 10px;
+}
+.mid p {
+  padding: 10px;
+  text-align: left;
+
+  font-weight: bold;
+}
+
+.days{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    width:90%;
+    margin:auto;
+    gap:30px;
+}
+.days img{
+    width:40%;
+}
+.days p{
+    text-align:center;
+}
+
+.days div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.days h1{
+    color:blue;
+}
